@@ -11,11 +11,13 @@ http.createServer(function(req, res) {
             break;
         case '/about':
             res.writeHead(200, { 'Content-Type': 'text/plain' });
-            res, end('About');
+            res.end('About');
             break;
         default:
             res.writeHead(404, { 'Content-Type': 'text/plain' });
             res.end('Not Found');
             break;
     }
-});
+}).listen(8080);
+
+console.log('Server started on localhost:8080')
