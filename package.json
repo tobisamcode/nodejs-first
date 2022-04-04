@@ -1,0 +1,23 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "He's a boy that does not have vision. He lacks understanding of the word of God. He behaves childishy. He's immature yet. May God help him",
+  "main": "apphtml.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobisamcode/nodejs-first.git"
+  },
+  "keywords": [
+    "first",
+    "server"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobisamcode/nodejs-first/issues"
+  },
+  "homepage": "https://github.com/tobisamcode/nodejs-first#readme"
+}
